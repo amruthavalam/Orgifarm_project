@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            background-color: cadetblue;
+        }
+        .container{
+            top:50%;
+            left:50%;
+            position: absolute;
+            transform:translate(-50%,-50%);
+        }
+        .card{
+            padding: 60px 40px 50px 40px;
+            background:rgb(97, 95, 95);
+            border-radius: 10px;
+        }
+        #name{
+            border:none;
+            background: transparent;
+            border-bottom:1px solid white;
+            padding:6px;
+            margin-bottom:15px;
+        }
+        #botton{
+            border-radius:20px;
+            padding:10px 20px;
+            background:dodgerblue;
+            color:white;
+            margin-top:20px;
+            border:none;
+            outline:none;
+            margin-left:50px;
+            text-align: center;
+        }
+        #button:hover{
+            background-color: greenyellow;
+            color: black;
+            cursor:pointer;
+         }
+        a{
+            font-size: 13px;
+        }
+        img{
+            border: radius 50%;
+            position: absolute;
+            margin-left:100px ;
+            margin: top -40px; 
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="card">
+        <input type="text" placeholder="Username" id="name"><br>
+        <input type="text" placeholder=" Password" id="name"><br>
+        <a href="#">forgot Password?</a><br>
+        <input type="submit" value="submit" id="button">
+    </div>
+
+</body>
+</html>
